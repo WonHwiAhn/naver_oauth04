@@ -147,7 +147,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>https://devbit010.cafe24.com/manager/text</url>
-					<path>/</path>
+					<path>/naver_oauth04</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
