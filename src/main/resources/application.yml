@@ -1,0 +1,44 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+ 
+#  datasource: 
+#    url: jdbc:oracle:thin:@1.234.63.35:1521:smartdb
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    username: gov
+#    password: fnucni_2015 
+#    #platform: 
+  datasource: 
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1234
+    #platform: 
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    
+
+naver:
+  client:
+    clientId: FtU5v41btODr2f_8RrFx
+    clientSecret: 8wgxtNPViW
+    accessTokenUri: https://nid.naver.com/oauth2.0/token
+    userAuthorizationUri: https://nid.naver.com/oauth2.0/authorize
+    tokenName: oauth_token
+    authenticationScheme: query
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://openapi.naver.com/v1/nid/me
+ 
+  logging:
+    level:
+      com.boot.blog: DEBUG
+        
