@@ -1,4 +1,4 @@
-package com.boot.blog;
+/*package com.boot.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,3 +10,4 @@ public class SpringBoot1Application {
 		SpringApplication.run(SpringBoot1Application.class, args);
 	}
 }
+*/
