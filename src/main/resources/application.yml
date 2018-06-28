@@ -1,7 +1,7 @@
 spring:
   mvc:
     view:
-      prefix: /WEB-INF/jsp/
+#      prefix: /WEB-INF/jsp/
       suffix: .jsp
  
 #  datasource: 
@@ -25,6 +25,14 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     
+cafe24:
+  mallid: myroom123
+  client_id: EhQDkCwAHlMiNQKADcYyUB
+  client_secret: 6et8qEYiHS0XzrSgJecieA
+  state: test
+  redirect_uri: https://devbit010.cafe24.com
+  scope: mall.read_application,mall.read_product,mall.write_product,mall.read_customer,mall.read_store
+  
 
 naver:
   client:
